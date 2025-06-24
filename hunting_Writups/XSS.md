@@ -13,3 +13,9 @@
 
  ---
  ---
+
+* [XSS in Hidden Input Without User Interaction](https://medium.com/@mhmodgm54/xss-in-hidden-input-without-user-interaction-acbd530c89b6)
+
+---
+---
+

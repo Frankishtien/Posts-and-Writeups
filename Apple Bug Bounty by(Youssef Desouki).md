@@ -1,4 +1,4 @@
-# Apple Bug Bounty by(Youssef Desouki)    
+# Apple Bug Bounty by(Youssef Desouki)     
 
 [Linked_in_post](https://www.linkedin.com/posts/desoukiofficial_hackerone-apple-bugbounty-ugcPost-7339135339036344322-PBqq/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
 

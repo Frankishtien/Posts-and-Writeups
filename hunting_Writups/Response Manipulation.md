@@ -100,7 +100,11 @@ The frontend trusted the modified status code and continued the registration flo
 
 
 
+---
 
+## ``Privilege Escalation via Response Manipulation``
+
+[writeup_link](https://medium.com/@HBlackGhost/privilege-escalation-via-response-manipulation-1bdb829c8748)
 
 
 

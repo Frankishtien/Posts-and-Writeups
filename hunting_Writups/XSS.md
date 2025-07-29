@@ -32,7 +32,10 @@ https://domain[.]com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app
 ---
 
 
+* ## ``It’s my old Triple XSS Bug Bounty Write-up``
 
+[writeup](https://wadgamaraldeen.medium.com/how-i-found-3-xss-types-reflected-blind-stored-dom-xss-in-one-program-and-got-c3a30a32adf7)
 
-
+---
+---
 

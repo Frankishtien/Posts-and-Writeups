@@ -11,6 +11,10 @@
 
 [writup_link](https://medium.com/@Y0S3TREX/response-manipulation-the-hidden-path-to-account-takeover-1f009bb5a676)
   
+---
+---
+
+
 
 
 

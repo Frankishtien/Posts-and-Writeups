@@ -60,3 +60,110 @@ Let’s keep hunting and learning! 🐺
   
 </details>
 
+
+
+---
+---
+
+
+* ## ``From One JS File to Full Recon: Gigya API Misconfiguration Exposing Company’s Logic & User Schema``
+
+[post_link](https://www.linkedin.com/posts/wadgamaraldeen_bugbounty-recon-infosec-activity-7347042597690859521-zK0R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+
+<details>
+
+
+# From One JS File to Full Recon: Gigya API Misconfiguration Exposing Company’s Logic & User Schema
+
+---
+
+## Summary of the Finding
+
+During testing of **Company.net**’s login flow, I discovered that their frontend JavaScript (`gigya.js`) embeds a publicly accessible **Gigya API Key**, allowing **unauthenticated access** to sensitive SAP Customer Data Cloud (Gigya) endpoints.
+
+### Exposed Endpoints
+Using this API key, it was possible to perform unauthenticated calls to:
+
+- `accounts.getScreenSets` → Leaks full login UI HTML
+- `accounts.getSchema` → Leaks the entire user data structure (e.g., meter number, address, terms agreement)
+- `accounts.getPolicies` → Reveals password policies and session logic
+
+---
+
+## Status
+
+- **Accepted and confirmed** by Zerocopter and Company Security Team
+- Fix is currently in progress
+
+---
+
+## Example Leaked Endpoint
+
+```
+https://login.Company.net/js/gigya.js?apikey=...&lang=nl
+```
+
+
+---
+
+## Proof of Concept (PoC)
+
+```bash
+curl -s "https://accounts.eu1.gigya.com/accounts.getScreenSets?apiKey=EXPOSED_KEY"
+```
+
+
+---
+
+Security Impact
+Information Disclosure: Internal login UI, schemas, and policies exposed
+
+Phishing Facilitation: Attackers can replicate login screens for realistic attacks
+
+Reconnaissance: Insight into internal logic & social login providers
+
+Misconfiguration: Endpoints are meant to be protected, but unauthenticated access was allowed
+
+Why This Matters
+While the APIs are hosted by SAP (accounts.eu1.gigya.com), the exposed API Key is specific to Company’s Gigya project.
+The misconfiguration lies in the company’s project settings, which must be secured via their own admin portal (by updating access policies).
+
+Bonus
+Rendered the leaked login screen using returned HTML, demonstrating pixel-perfect phishing potential.
+
+Suggested Fixes
+🔐 Restrict unauthenticated access to key endpoints.
+
+🔁 Rotate the exposed API key immediately.
+
+🚫 Avoid embedding secrets in public JavaScript files.
+
+🧪 Regularly audit API access scopes and CORS policies.
+
+Takeaway
+This finding highlights the power of recon and passive analysis in bug bounty.
+If you’re a hunter — always check those gigya.js files, you might find something valuable hiding in plain sight 👀
+
+
+
+  
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

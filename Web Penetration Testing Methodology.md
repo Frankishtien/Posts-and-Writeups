@@ -4,4 +4,7 @@
   - [Methodology!](https://svfear.github.io/cyberseeker/web-pen-methedology)
 
 
+---
+---
 
+* [notion_methodology](https://ballistic-leo-f1f.notion.site/XxVoCxX-Methodology-1e0952d2f2288019ae10fdc629fff94a)

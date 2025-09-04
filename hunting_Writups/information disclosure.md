@@ -14,5 +14,19 @@
 * [nuclei-templates](https://github.com/coffinxp/nuclei-templates/blob/main/iis.yaml)
 
 ---
+---
+
+## `Got a new reward for Mass Information Disclosure on a payment service company via exposed i18n.json file`
+
+[linkedin_post](https://www.linkedin.com/posts/wadgamaraldeen_bugbountytips-infosec-recon-activity-7353712257500938241-yh-S/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+
+---
+---
+
+
+
+
+
 
 

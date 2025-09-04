@@ -61,4 +61,33 @@
 
 
 
+---
+---
+
+# `Bypass 2FA Logic Flaw`
+
+[linkedin _post](https://www.linkedin.com/posts/0xoverlord_bugbounty-bugbountytip-ugcPost-7353741273851158528-HhNq/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+<details>
+
+Bug Summary:
+
+1. Try to login to victim account 
+2. The system will prompt for the 2FA verification code — do NOT enter the code yet Instead, return to the login page ( by hitting the back button or navigating directly). 
+3. Enter the same credentials again and attempt to log in. 
+4. Observe that you get access to the account without 2fa
+
+  
+</details>
+
+---
+---
+
+
+
+
+
+
+
+
 

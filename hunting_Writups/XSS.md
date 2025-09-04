@@ -59,6 +59,9 @@ https://domain[.]com/ssl-vpn/getconfig.esp?client-type=1&protocol-version=p1&app
 ---
 
 
+* ## ``When I Bypassed Google CAPTCHA: The Epic Exploit of POST-based XSS + CSRF``
+
+[writeup_link](https://infosecwriteups.com/when-i-bypassed-google-captcha-the-epic-exploit-of-post-based-xss-csrf-1fb66f7cf886)
 
 
 

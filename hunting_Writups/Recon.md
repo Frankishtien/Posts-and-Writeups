@@ -154,6 +154,28 @@ If you’re a hunter — always check those gigya.js files, you might find somet
 
 
 
+---
+---
+
+
+## ``15 Minutes, Recon and €250 Bounty``
+
+[linked_in_Post](https://www.linkedin.com/posts/lucas-gon%C3%A7alo-de-morais_15-minutes-recon-and-250-bounty-english-activity-7352092810319147011-JW_-/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+<details>
+
+
+---
+
+I recently received a €250 bounty in a public Bug Bounty program on Intigriti. This outcome reinforces that effective asset enumeration and reconnaissance are crucial for significant discoveries and impacts.
+
+In less than 15 minutes of analyzing the scope, I identified Firewall and Endpoint Management Server (EMS) panels publicly exposed on a subdomain of an in-scope asset.
+
+The particularity of this discovery lies in the fact that these endpoints were not indexed on Google and were not accessible via conventional dorking techniques. The identification was made possible through an in-depth SSL/TLS certificate enumeration analysis, a methodology that often reveals hidden assets that remain invisible through superficial recon approaches.
+
+The public exposure of these critical administrative interfaces represents a security misconfiguration with inherent risks. Initially, the report was classified with low criticality by the company's team. However, after a subsequent re-evaluation, the team confirmed that the actual criticality was Medium. Despite platform limitations to adjust the severity, a bonus was granted, reflecting the recognition of the revised severity.
+  
+</details>
 
 
 

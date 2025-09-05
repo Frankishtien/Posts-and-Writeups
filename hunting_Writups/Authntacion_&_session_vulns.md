@@ -84,8 +84,12 @@ Bug Summary:
 ---
 
 
+[Zero-Click ATO via Reusable Password Reset Token](https://medium.com/@mahmodziad40/zero-click-ato-via-reusable-password-reset-token-3299d0bfc005)
 
 
+
+---
+---
 
 
 

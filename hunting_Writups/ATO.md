@@ -82,10 +82,14 @@ It works when json is being used to transfer and receive data.
 
 
 
+---
+---
+
+[0-Click ATO and Privilege Escalation](https://hesham-elbadry.github.io/posts/0-Click-ATO-and-privilege-escalation/)
 
 
-
-
+---
+---
 
 
 

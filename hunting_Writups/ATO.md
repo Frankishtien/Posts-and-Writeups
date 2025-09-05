@@ -100,6 +100,13 @@ It works when json is being used to transfer and receive data.
 
 
 
+### [IDOR to Full Account Takeover](https://medium.com/@amrqansow/idor-to-full-account-takeover-f6dd651f5de4)
+
+
+
+---
+---
+
 
 
 

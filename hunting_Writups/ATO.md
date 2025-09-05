@@ -92,6 +92,16 @@ It works when json is being used to transfer and receive data.
 ---
 
 
+### [A Critical Zero-Day in Atlassian Jira Service Management Cloud: Password Reset Account Takeover](https://medium.com/@MoSalah11/a-critical-zero-day-in-atlassian-jira-service-management-cloud-password-reset-account-takeover-1903cbb8bd31)
+
+
+---
+---
+
+
+
+
+
 
 
 

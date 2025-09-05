@@ -122,12 +122,13 @@
 
 
 
+[How I Increased the Impact of a Simple Bug to a Full Org Lockout](https://medium.com/@mohammedyousriy/how-i-increased-the-impact-of-a-simple-bug-to-a-full-org-lockout-da32a38b5650)
 
 
 
 
-
-
+---
+----
 
 
 

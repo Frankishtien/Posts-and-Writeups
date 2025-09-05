@@ -15,5 +15,11 @@
 
 [When the Price Goes Wrong: $9K from 2 Price Manipulation](https://blog.ayoubnouri.me/blog/when-the-price-goes-wrong) ⚠️⚠️
 
+---
+---
+
+[Logical 2FA Bypass via Missing clientId Parameter in Profile Update Endpoint](https://medium.com/@mhmodgm54/logical-2fa-bypass-via-missing-clientid-parameter-in-profile-update-endpoint-3f054bc651d6)
 
 
+---
+---

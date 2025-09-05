@@ -113,6 +113,13 @@
 ---
 
 
+[IDOR in Invitation Flow Leads to Denial of Signup and Account Manipulation](https://medium.com/@mhmodgm54/idor-in-invitation-flow-leads-to-denial-of-signup-and-account-manipulation-98c51e0dd942)
+
+
+---
+---
+
+
 
 
 

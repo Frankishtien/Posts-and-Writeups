@@ -178,6 +178,36 @@ The public exposure of these critical administrative interfaces represents a sec
 </details>
 
 
+---
+---
+
+
+
+[post_link](https://www.linkedin.com/posts/ahasan-ruhin_one-liner-for-finding-files-subfinder-activity-7363136460641718272-D8ai/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+```
+subfinder -d domain.com -silent | \
+while read host; do \
+ for path in /config.js /config.json /app/config.js /settings.json /database.json /firebase.json /.env /.env.production /api_keys.json /credentials.json /secrets.json /google-services.json /package.json /package-lock.json /composer.json /pom.xml /docker-compose.yml /manifest.json /service-worker.js; do \
+ echo "$host$path"; \
+ done; \
+done | httpx -mc 200
+```
+
+
+---
+----
+
+
+
+
+
+
+
+
+
+
+
 
 
 

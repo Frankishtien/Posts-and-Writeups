@@ -1,4 +1,4 @@
-# SQLI
+<img width="919" height="397" alt="image" src="https://github.com/user-attachments/assets/17d691d4-d942-4ef0-b695-37b7bac516a9" /># SQLI
 
 
 * ## Cloudflare 403 bypass to time-based blind SQLi
@@ -20,5 +20,54 @@
 
 ----
 ----
+
+
+## `Time-Based Blind SQLi → No Output? Use Time!`
+
+
+[linkedin_post]()
+
+<details>
+
+
+
+
+```
+Time-Based Blind SQLi → No Output? Use Time!
+ App doesn’t return errors or results
+ Attacker uses payload like: ' OR IF(1=1, SLEEP(5), 0) --
+ Measures response delay
+ True → delay, False → fast
+ Extracts data using response timing
+```
+
+<img width="919" height="397" alt="image" src="https://github.com/user-attachments/assets/4e27ce81-66d6-4412-91c5-04941997396d" />
+
+
+   
+</details>
+
+
+
+
+
+---
+---
+
+
+<details>
+   <summary>blind time based</summary>
+
+
+<img width="667" height="781" alt="image" src="https://github.com/user-attachments/assets/cb6df118-6c82-4719-84d8-f4a5061582f9" />
+
+
+   
+</details>
+
+
+
+
+
 
 

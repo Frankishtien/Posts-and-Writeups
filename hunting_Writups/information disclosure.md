@@ -64,4 +64,27 @@ Tips:
 
 
 
+---
+---
+
+### [How i Access Potential Misconfiguration Leading to Information Disclosure Unauthenticated Access to Exposing Database Configuration So Easy Bug](https://medium.com/@Muhammad_Wageh/how-i-access-potential-misconfiguration-leading-to-information-disclosure-unauthenticated-access-to-13bcc727cfa6)
+
+
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

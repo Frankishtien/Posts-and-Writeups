@@ -131,4 +131,45 @@
 ----
 
 
+<details>
+   <summary>I recently encountered an IDOR :</summary>
+
+
+```
+I recently encountered an IDOR :
+
+DELETE /api/notes/:id → tried deleting someone else’s note → 403 Forbidden (expected)
+
+PUT /api/notes/:id → tried editing the same note → success ✅, no authorization check
+
+After editing the note, DELETE /api/notes/:id → succeeded, could now delete the notes which was showing 403 forbidden earlier
+
+Reason: Likely edit endpoint mutated ownership or permission flags, letting delete pass.
+
+Tip: Always test chained actions, not just individual endpoints.
+```
+
+<img width="718" height="767" alt="image" src="https://github.com/user-attachments/assets/49a5fa1d-af8b-4f17-9817-9ff2e6499313" />
+
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

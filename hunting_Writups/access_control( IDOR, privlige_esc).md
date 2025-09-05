@@ -157,11 +157,16 @@ Tip: Always test chained actions, not just individual endpoints.
 
 
 
+---
+---
+
+
+### [IDOR to Full Account Takeover](https://medium.com/@amrqansow/idor-to-full-account-takeover-f6dd651f5de4)
 
 
 
-
-
+---
+---
 
 
 

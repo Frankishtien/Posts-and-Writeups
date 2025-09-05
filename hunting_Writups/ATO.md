@@ -72,3 +72,29 @@ It works when json is being used to transfer and receive data.
 </details>
 
 
+
+---
+---
+
+
+[Zero-Click ATO via Reusable Password Reset Token](https://medium.com/@mahmodziad40/zero-click-ato-via-reusable-password-reset-token-3299d0bfc005)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

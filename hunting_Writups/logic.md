@@ -6,3 +6,14 @@
 ---
 
 [Same Bug, Different Places: 3 Logic Flaws I Found on Main Domain](https://medium.com/@nnouh4967/same-bug-different-places-3-logic-flaws-i-found-on-main-domain-90608ced8d4c)
+
+
+---
+---
+
+
+
+[When the Price Goes Wrong: $9K from 2 Price Manipulation](https://blog.ayoubnouri.me/blog/when-the-price-goes-wrong) ⚠️⚠️
+
+
+

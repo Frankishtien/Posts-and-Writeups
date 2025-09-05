@@ -71,12 +71,14 @@
 ---
 
 
+## ``HTTP method inconsistency``
 
 
+<img width="701" height="538" alt="image" src="https://github.com/user-attachments/assets/b77e7722-8d92-4ccc-aa03-9b4436488abc" />
 
 
-
-
+---
+---
 
 
 

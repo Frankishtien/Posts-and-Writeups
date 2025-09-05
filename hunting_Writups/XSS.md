@@ -136,12 +136,26 @@ Attribute Injection Payloads
 ------
 -------
 
+[linked_in_post](https://www.linkedin.com/posts/hossam-shady-123330193_bugbountytips-bugbountytip-redteam-activity-7362423675360292865-YIPJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
 
 
+<details>
 
 
+```
+weird WAF bypass.
+
+xyztest");alert(origin);// => 403
+xyz,test");alert(origin);// => 200
+credit:- https://lnkd.in/dixt4-NG
+```
+
+    
+</details>
 
 
+---
+---
 
 
 

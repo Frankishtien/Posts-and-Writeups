@@ -181,8 +181,35 @@ Odoo apps (<= 15.0) using jQuery BBQ < 1.3.1 are vulnerable to prototype polluti
 
 
 
+---
+----
+
+## [ How to get 99% valid Reflected Cross-Site Scripting (XSS)](https://www.linkedin.com/posts/rix4uni_bugbounty-bugbountytips-bugbountytip-ugcPost-7367414893559336961-kbCS/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+<details>
 
 
+🚀 How to get 99% valid Reflected Cross-Site Scripting (XSS) results with xsschecker + pyxss
+
+xsschecker:
+xsschecker scans responses to detect payload reflections. However, it often reports false positives — even if the payload is reflected in the response but doesn’t actually trigger an alert popup.
+✅ Fast for large-scale scans
+❌ Up to ~99% false positives
+
+xsschecker + pyxss:
+By combining pyxss with xsschecker, you can validate results and filter out false positives. pyxss opens Chrome to confirm alert popup if found it will click on the `OK` button.
+✅ ~99.9% valid results (similar to KNOXSS)
+❌ Running pyxss alone is slower for millions of URLs, since it validates in the browser
+
+Best approach:
+Run xsschecker first to quickly identify which urls showing payload in the response, then validate with pyxss to eliminate false positives. This gives you the scalability of xsschecker with the accuracy of pyxss.
+
+🔗 Tools:
+xsschecker: https://lnkd.in/gCRz4XR8
+pyxss: https://lnkd.in/gxb8y3eU
+
+ 
+</details>
 
 
 

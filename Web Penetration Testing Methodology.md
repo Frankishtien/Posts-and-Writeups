@@ -191,3 +191,27 @@ Credits to ChatGPT
 hashtag#BugBountyTips
 </details>
 
+
+
+---
+---
+
+
+[bug_hunting_methodology](https://pentestbook.six2dez.com/recon/webs-recon)
+
+- [post_link](https://www.linkedin.com/posts/mohamed-ayman-47b8bb351_bugbounty-recon-websecurity-activity-7358115042229153792-nOt7/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+
+---
+---
+
+
+
+
+
+
+
+
+
+
+

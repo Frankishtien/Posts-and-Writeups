@@ -72,12 +72,13 @@ Time-Based Blind SQLi → No Output? Use Time!
 ----
 
 
+## **`How to Find Blind Time-Based SQL Injection (BSQLI)`**
 
 
+[linkedin_post](https://www.linkedin.com/posts/rix4uni_bugbountytips-bugbounty-bugbountytips-ugcPost-7370382285960826880-IkzS/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
 
-
-
-
+---
+---
 
 
 

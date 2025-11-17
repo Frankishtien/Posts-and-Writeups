@@ -213,7 +213,12 @@ pyxss: https://lnkd.in/gxb8y3eU
 
 
 
+---
+---
 
+## **`𝗫𝗦𝗦 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻`**
+
+[linked_in_post](https://www.linkedin.com/posts/michael-vincent-franco-a35215216_xss-bugbounty-automation-activity-7371382181757321216-aKYj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
 
 
 

@@ -114,13 +114,67 @@ Bug Summary:
 
 
 
+---
+---
+
+## [How I Earned $1000 from a Password Reset Vulnerability](https://dev.to/mo_zain/how-i-earned-1000-from-a-password-reset-vulnerability-299h)
 
 
 
+<details>
+  <summary>summary</summary>
 
+### The Normal Way (How it Should Work)
 
+1.  You click "Forgot Password" on a website.
 
+2.  The website sends you an email with a special secret code (like a house key).
 
+3.  The link in the email looks like this:\
+    `https://realsite.com/reset?key=SECRET123`
+
+4.  You click it, go to the real website, and type a new password.
+
+The secret key never leaves the real website.
+
+* * * * *
+
+### The Hacker's Trick (What Went Wrong)
+
+The website had a stupid mistake. When you asked for a password reset, it let you choose the address for the reset link!
+
+So the hacker did this:
+
+1.  Went to the "Forgot Password" page.
+
+2.  Typed in the victim's email.
+
+3.  Used a hacking tool to change the website's address in the request to his own fake website.
+
+4.  The real website then sent an email to the victim that looked like this:\
+    `https://hacker-site.com/?key=SECRET123`
+
+* * * * *
+
+### What Happened Next (The Attack)
+
+1.  The victim gets the email and clicks the link, thinking it's safe.
+
+2.  They go to hacker's website instead of the real one.
+
+3.  Their browser automatically sends the secret key (SECRET123) to the hacker's server.
+
+4.  The hacker sees the secret key in his server logs.
+
+5.  The hacker goes to the real reset page, uses the stolen key, and changes the victim's password.
+
+Now the hacker owns the account.
+
+  
+</details>
+
+---
+----
 
 
 

@@ -109,8 +109,67 @@ It works when json is being used to transfer and receive data.
 
 
 
+### Zero-click ATO 
+
+<details>
+ <summary>details</summary>
 
 
+Zero-click ATO 
+
+PoC: 
+
+1 - create an account like (amir@example.com)
+
+2 - try to create another account but with puny code , like (amir@exàmple.com)
+
+3 - noticed that the program treats them as one account 
+
+4 - go to forget password and put the email with puny code (amir@exàmple.com)
+
+5 - see that the forget password link received to puny code email 
+
+6 - change password, now u changed the password for the main email (amir@example.com) 
+
+
+easy to search .. 
+
+طب عشان تجيب دومين تستلم عليه الرسالة وتجرب ؟ 
+تجرب منين ؟
+
+use burp collaborator 
+amir@`burp collab domain` u copied it 
+
+وهتستلم عليه الرسالة .. 
+
+[https://lnkd.in/d2Mmq6jY](https://www.youtube.com/watch?v=Cj1sOFHDClM)
+وده فيديو شارح الطريقة بالتفصيل ..
+
+
+تعديل بسيط عشان اللغبطة بس : 
+مش شرط أن الpuny char يكون في الدومين ممكن برضو تعمل 
+amir@example.com
+àmir@example.com 
+
+مش شرط أنك تغير الdomain او الميل سيرفر 
+المهم تستقبل الرسالة .. 
+
+وده رايت اب بيشرح الثغرة برضو .. 
+
+[https://lnkd.in/dWwRp46w](https://infosecwriteups.com/the-most-underrated-0-click-account-takeover-using-punycode-idn-attacks-c0afdb74a3dc)
+
+
+
+
+
+
+
+
+
+
+
+ 
+</details>
 
 
 

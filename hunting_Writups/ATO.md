@@ -172,6 +172,69 @@ amir@example.com
 </details>
 
 
+---
+----
+
+## Account Takeover via Password reset poisoning or email verification poisoning
+
+[post_link](https://www.linkedin.com/posts/wadgamaraldeen_%D9%87%D8%B0%D8%A7-%D9%85%D9%86-%D9%81%D8%B6%D9%84-%D8%A7%D9%84%D9%84%D9%87-%D8%B3%D8%A8%D8%AD%D8%A7%D9%86%D9%87-%D9%88-%D8%AA%D8%B9%D8%A7%D9%84%D9%89-private-ugcPost-7428376837451509760-CGSS/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+
+<details>
+ <summary>explain</summary>
+
+
+
+Private BB Program 
+# Tips :-
+When you ever encounter email verification or password reset request :-
+
+1- intercept it using burpsuite
+2- Change the host header value to :- 
+Host: attacker.com
+ or
+X-Forwarded-Host: attacker.com
+or 
+X-Forwarded-For: attacker.com
+or duplicate host header :-
+Host: company.com
+Host: attacker.com
+
+3- Open your test email inbox and check if the email verification or password reset link got poisoned by attacker.com (attacker controlled domain --> verification or reset token get leaked in the attacker's controlled domain logs --> Token theft --> Account Takeover.
+
+If you wanna understand the Account Takeover via Password reset poisoning or email verification poisoning in detail read these blogs/Writeups :-
+
+-https://lnkd.in/d3sWt-e6
+
+-https://lnkd.in/dasvMKrP
+
+-https://lnkd.in/dMAeyyWK
+
+ 
+</details>
+
+
+---
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -168,8 +168,13 @@ Tip: Always test chained actions, not just individual endpoints.
 ---
 ---
 
+## **`Reading Private Chats : How I Turned an IDOR into a $$ Privacy Breach`**
+
+[Writeup](https://medium.com/@mostafa23110006/reading-private-chats-how-i-turned-an-idor-into-a-privacy-breach-3720d8ed6a0c)
 
 
+---
+---
 
 
 

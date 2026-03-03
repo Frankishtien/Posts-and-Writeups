@@ -75,6 +75,35 @@ Tips:
 
 
 
+Recently, I discovered two unclaimed AWS S3 buckets associated with a target's subdomains. Interestingly, I was able to claim them, which is quite rare. However, they were promptly resolved after I reported the issue, which is acceptable.
+
+Here are the steps I followed:
+
+1. Collected all the CNAMEs associated with the target's subdomains.
+2. Extracted or grepped AWS buckets and probed them using tools such as httpx by ProjectDiscovery. If they returned a 404, this could indicate a potential for takeover. 
+
+The one liner I mostly use is quite the same as this one below:
+
+```bash
+cat cnames.txt | grep -i 'amazonaws\|s3' | httpx -sc -title -silent | tee aws_potential_takeovers.txt
+
+for domain in $(awk '{print $1}' aws_potential_takeovers.txt); do
+ bucket_name=$(echo $domain | sed 's/https\?:\/\///' | sed 's/\/.*//' | sed 's/\..*//')
+ echo "[*] Checking bucket: $bucket_name"
+ aws s3 ls s3://$bucket_name --no-sign-request 2>&1 | grep -q 'AccessDenied\|NoSuchBucket' && \
+ echo "[-] $bucket_name not accessible or doesn't exist" || \
+ echo "[+] $bucket_name might exist or be misconfigured!"
+done
+```
+
+Also you can use my personal recon framework it does all of the mentioned stuff 
+
+https://lnkd.in/eDAxijTA
+
+---
+----
+
+---- 
 
 
 

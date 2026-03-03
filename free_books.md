@@ -21,6 +21,12 @@
 ---
 ---
 
+## [oscp book](https://www.linkedin.com/posts/osama-abdella-a5ab981b4_pen-200-ugcPost-7417959370048626688-aOq3/?utm_source=share&utm_medium=member_android&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
+
+
+---
+----
+
 
 
 

